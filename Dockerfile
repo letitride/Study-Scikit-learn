@@ -3,6 +3,7 @@ FROM continuumio/anaconda3:2019.03
 
 # pipをアップグレードし必要なパッケージをインストール
 RUN pip install --upgrade pip && \
+    pip install pandas_profiling && \
     pip install autopep8 && \
     pip install Keras && \
     pip install tensorflow && \

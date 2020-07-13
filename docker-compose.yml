@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: my-anaconda 
+    image: my-anaconda-with-profile 
     ports:
-    - "8888:8888"
+    - "8889:8888"
     volumes:
     - .:/workdir
