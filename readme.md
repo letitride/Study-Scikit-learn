@@ -33,3 +33,7 @@ C値で正則化の強度を変更できる
 ## サポートベクタマシン
 
 ```LinearSVC```
+
+## 決定木
+
+```DecisionTreeClassifier```
