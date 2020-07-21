@@ -1,3 +1,25 @@
+# データセット
+
+## 規則性のあるデータセット
+
+```sklearn.datasets```
+
+クラスタデータ:```make_blobs```，三日月形:```make_moons```，円形:```make_circles```
+
+## 乳がんデータセット
+
+```sklearn.datasets```
+
+```load_breast_cancer```
+
+## メモリ価格の時系列推移
+
+```
+import os
+os.path.join(mglearn.datasets.DATA_PATH, "ram_price.csv"))
+```
+
+
 # 回帰
 
 ## 線形回帰
@@ -34,6 +56,8 @@ C値で正則化の強度を変更できる
 
 ```LinearSVC```
 
+回帰もある。
+
 ## 決定木
 
 ```DecisionTreeClassifier```
@@ -49,3 +73,17 @@ C値で正則化の強度を変更できる
 ```RandomForestClassifier```
 
 回帰も可能。```RandomForestRegressor```
+
+
+### 勾配ブースティング
+
+```GradientBoostingClassifier```
+
+回帰もある。```GradientBoostingRegressor```
+
+複数の決定木を用いて、前回の決定木の予測結果を別の決定木で補正する。多くの決定木を用いることで、補正機会が多くなり精度があがる。
+
+デフォルトでは深さ3、100個の決定木が作成される。
+
+過学習には、木の深さを```max_depth```制限するか、学習強度```learning_rate```を下げることで対応できる。
+
