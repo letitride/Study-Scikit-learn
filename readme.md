@@ -37,3 +37,15 @@ C値で正則化の強度を変更できる
 ## 決定木
 
 ```DecisionTreeClassifier```
+
+回帰も可能。```DecisionTreeRegressor```
+
+決定木は決定アルゴリズムが分かり易いが、過剰適合しやすく汎化性能が低くなる傾向がある。
+
+### ランダムフォレスト
+
+複数の異なる(汎化性能)決定木を用いて、各決定木が予測した値の平均値をとることで決定木の過剰適合を解決する手法。
+
+```RandomForestClassifier```
+
+回帰も可能。```RandomForestRegressor```
