@@ -56,7 +56,7 @@ C値で正則化の強度を変更できる
 
 ## サポートベクタマシン
 
-```LinearSVC```
+```LinearSVC```,```SVC```
 
 回帰もある。
 
@@ -93,3 +93,8 @@ C値で正則化の強度を変更できる
 
 過学習には、木の深さを```max_depth```制限するか、学習強度```learning_rate```を下げることで対応できる。
 
+## ニューラルネットワーク
+
+```sklearn.neural_network```
+
+```MLPClassifier```
