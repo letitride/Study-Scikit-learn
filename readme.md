@@ -119,3 +119,31 @@ C値で正則化の強度を変更できる
 ```sklearn.neural_network```
 
 ```MLPClassifier```
+
+# スケール処理
+
+## StandardScaler
+
+標準化
+
+```StandardScaler```
+
+## RobustScaler
+
+中央値と四分位数
+
+```RobustScaler```
+
+極端に他の値と異なるようなハズレ値を無視する。
+
+## MinMaxScaler
+
+データセットを0〜1の値に変換する。
+
+```MinMaxScaler```
+
+## Normalizer
+
+データポイントを半径1の円(高次元なら球面)に投射する。ベクトルの長さではなく角度を問題とする時に用いる。
+
+```Normalizer```
