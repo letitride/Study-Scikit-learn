@@ -140,7 +140,7 @@ C値で正則化の強度を変更できる
 
 データセットを0〜1の値に変換する。
 
-```MinMaxScaler```
+```sklearn.preprocessing.MinMaxScaler```
 
 ## Normalizer
 
