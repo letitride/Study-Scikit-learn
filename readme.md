@@ -1,22 +1,22 @@
 # データセット
 
-## 規則性のあるデータセット
-
 ```sklearn.datasets```
+
+## 規則性のあるデータセット
 
 クラスタデータ:```make_blobs```，三日月形:```make_moons```，円形:```make_circles```
 
 ## iris アヤメ
 
-```sklearn.datasets```
-
 ```load_iris```
 
 ## 乳がんデータセット
 
-```sklearn.datasets```
-
 ```load_breast_cancer```
+
+## 人物の顔画像
+
+```fetch_lfw_people```
 
 ## mglearn (Pythonではじめる機会学習library)
 
